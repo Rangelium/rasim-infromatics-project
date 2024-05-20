@@ -27,7 +27,7 @@ export default function RootLayout({
         }}
         component="body"
       >
-        {/* {children} */}
+        {children}
       </Box>
     </html>
   );
