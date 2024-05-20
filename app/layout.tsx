@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 
-export const roboto = Roboto({
+const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "500"],
 });
@@ -27,7 +27,7 @@ export default function RootLayout({
         }}
         component="body"
       >
-        {children}
+        {/* {children} */}
       </Box>
     </html>
   );
