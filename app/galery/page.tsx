@@ -27,10 +27,6 @@ export default function LandingPage() {
 
       <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
 
-      <Hero />
-
-      <Divider />
-
       <Box sx={{ bgcolor: "background.default" }} py={3} px={4}>
         <Stack
           sx={{
